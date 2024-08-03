@@ -1,0 +1,17 @@
+{
+  "name": "hello-world-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist && cp index.html app.js dist/",
+    "deploy-main": "npm run build && npx permaweb-deploy --ant-process vrGOL_mGvN5CCZDEZ-R3zW1jqY6MV_ek3rABsDSIZDU"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "permaweb-deploy": "^1.1.6"
+  }
+}
